@@ -57,6 +57,21 @@ nav {
     float:right;
 }
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 0;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
 nav a{
     color:var(--white);
     text-decoration:none;
@@ -146,6 +161,11 @@ input[type="submit"]:focus, button:focus {
         display: block;
         margin-top: 15px;
         text-align: center;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin: 5px 10px;
     }
     
     nav a {
