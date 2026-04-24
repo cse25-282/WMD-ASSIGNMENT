@@ -2,40 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us | AutoDrive Motors</title>
-     <style class="css"></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Lorato Motors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>LORATO MOTORS</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="gallery.html">Car Gallery</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Contact AutoDrive Motors</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+    <main>
+        <section class="hero-section">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you. Get in touch with us.</p>
+        </section>
 
-<section>
-    <h2>Get in Touch</h2>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
 
-    <form>>
-      <label>Full Name;</label>
-      <input type="text"required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-      <label>Email:</label>
-      <input type="email" required>
-    
-      <label>Message:</label>
-      <textarea required></textarea>>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
-      <button type ="submit">Send Messages</button>
-    </form>
-</section>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
 
-<footer>
-    <p>&copy; 2026 AutoDrive Motors</p>
-</footer>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> Gaborone, Botswana</p>
+            <p><strong>Phone:</strong> +267 123 4567</p>
+            <p><strong>Email:</strong> info@loratomotors.com</p>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2026 Lorato Motors. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
