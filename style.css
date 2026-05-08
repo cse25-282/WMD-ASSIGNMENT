@@ -310,6 +310,7 @@ input[type="submit"]:focus, button:focus {
 .gallery-content{
     display: grid;
     grid-template-colomn: repeat(auto-fit, minmax(250px,1fr))
+    gab: 2 rem;
 }
 
 .card{
