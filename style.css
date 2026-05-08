@@ -92,7 +92,7 @@ nav a{
 }
 
 nav a:hover, nav a:focus {
-    transform: scale(.50px);
+    transform: scale(.-50px);
     color:blue;
 
 }
@@ -309,9 +309,9 @@ input[type="submit"]:focus, button:focus {
 /*styling gallery*/
 
 .gallery-grid{
-    background-colour:blue;
-    
-    
+    diplay:grid;
+    grid-auto-flow: colomn;
+    grid-auti-colomns: 250;
 }
 
 
