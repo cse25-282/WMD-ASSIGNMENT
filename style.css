@@ -92,7 +92,7 @@ nav a{
 }
 
 nav a:hover, nav a:focus {
-    transform: scale(.-50px);
+    transform: scale(.-70px);
     color:blue;
 
 }
@@ -314,7 +314,11 @@ input[type="submit"]:focus, button:focus {
     grid-auti-colomns: 250;
 }
 
-
+.car-card{
+    width:260px;
+    height:200px;
+    boader-radius: 20px;
+}
 
 
 
