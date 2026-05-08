@@ -308,17 +308,7 @@ input[type="submit"]:focus, button:focus {
 }
 /*styling gallery*/
 
-.gallery-grid{
-    diplay:grid;
-    grid-auto-flow: colomn;
-    grid-auti-colomns: 250;
-}
 
-.car-card{
-    width:260px;
-    height:200px;
-    boader-radius: 20px;
-}
 
 
 
