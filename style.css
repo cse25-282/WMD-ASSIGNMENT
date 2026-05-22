@@ -19,7 +19,7 @@
 /*Body styling*/
 body{
     font-family:Arial,Helvetica,sans-serif;
-    background-color: valencia orange;
+    background-color: orange;
     color:var(--text-color);
     line-height:1.6;
     text-rendering: optimizeLegibility;
