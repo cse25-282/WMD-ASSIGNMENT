@@ -23,6 +23,7 @@ body{
     color:var(--text-color);
     line-height:1.6;
     text-rendering: optimizeLegibility;
+    font-color: white;
 }
 
 /*Container for centering content*/
